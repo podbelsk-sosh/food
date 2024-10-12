@@ -1,0 +1,12 @@
+				</div><!--#config timefmt="%Y-%m-%dT%H:%M:%S" -->
+				<p style="width:100%;font-size:10px;text-align:center;">
+					<a href="https://github.com/podbelsk-sosh">https://github.com/podbelsk-sosh</a><br>&copy; 2016 - Все права защищены<br>Разработчик: <a href="https://mynickname.com/projectsoft" target="_blank">ProjectSoft</a><br>Серверное время: <span id="time"><!--#echo var="DATE_LOCAL"--></span>
+				</p>
+			</div>
+		</div>
+		<script type="text/javascript">
+			!function(t){const e=document.querySelector("#time");function n(t){return t>9?String(t):`0${t}`}if(e){let i=e.textContent,r=new Date(Date.parse(i));function o(){let t=r.getTime()+100;r.setTime(t);let o=r.getDate(),u=r.getMonth(),g=r.getFullYear(),c=r.getHours(),l=r.getMinutes(),s=r.getSeconds();o=n(o),u=n(u),c=n(c),l=n(l),s=n(s),i=`${o}-${u}-${g} ${c}:${l}:${s}`,e.textContent=i}setInterval(o,100),o()}}(window);
+		</script>
+		<script src="/viewer/app.js?v=1.0.6"></script>
+	</body>
+</html>
